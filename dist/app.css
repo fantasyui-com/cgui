@@ -1,0 +1,38 @@
+html {
+  min-height: 100vh;
+  color: #FFFFFF;
+  background: linear-gradient(45deg, #232B2E, #191E21);
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.cgui-muted {
+  color: #CCCCCC;
+}
+
+.cgui {
+  padding: 1rem;
+}
+
+.cgui-container {
+  padding: 1rem;
+}
+
+.cgui-left {
+  margin-bottom: 1rem;
+  margin-left: 5rem;
+  padding: 2rem 1rem;
+  border: 1px solid #384042;
+  background: -webkit-gradient(linear, left top, left bottom, from(#202528), to(#2E3639));
+  background: linear-gradient(#202528, #2E3639);
+  border-radius: 4px;
+}
+
+.cgui-right {
+  margin-bottom: 1rem;
+  margin-right: 5rem;
+  padding: 2rem 1rem;
+  border: 1px solid #384042;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2E3639), to(#202528));
+  background: linear-gradient(#2E3639, #202528);
+  border-radius: 4px;
+}

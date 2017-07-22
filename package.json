@@ -1,0 +1,25 @@
+{
+  "name": "cgui",
+  "version": "1.0.0",
+  "description": "Conversational Graphic User Interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fantasyui-com/cgui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fantasyui-com/cgui/issues"
+  },
+  "homepage": "https://github.com/fantasyui-com/cgui#readme",
+  "dependencies": {
+    "autoprefixer": "^7.1.2",
+    "postcss": "^6.0.8",
+    "precss": "^2.0.0"
+  }
+}
