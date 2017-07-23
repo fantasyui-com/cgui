@@ -1,8 +1,15 @@
+@import "./theme/charcoal.css";
+
 html {
   min-height: 100vh;
-  color: #FFFFFF;
   background: linear-gradient(45deg, #232B2E, #191E21);
+
+}
+
+html, input {
   font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
 }
 
 .cgui-muted {
@@ -17,20 +24,26 @@ html {
   padding: 1rem;
 }
 
-.cgui-left {
+
+
+
+.cgui-command {
+  @extend input;
   margin-bottom: 1rem;
-  margin-left: 5rem;
-  padding: 2rem 1rem;
-  border: 1px solid #384042;
-  background: linear-gradient(#202528, #2E3639);
-  border-radius: 4px;
+  padding: .5rem;
+  width: 100%;
 }
 
-.cgui-right {
+.cgui-left {
+  @extend component;
   margin-bottom: 1rem;
   margin-right: 5rem;
   padding: 2rem 1rem;
-  border: 1px solid #384042;
-  background: linear-gradient(#2E3639, #202528);
-  border-radius: 4px;
+}
+
+.cgui-right {
+  @extend component;
+  margin-bottom: 1rem;
+  margin-left: 5rem;
+  padding: 2rem 1rem;
 }
