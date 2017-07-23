@@ -1,12 +1,11 @@
 @import "./theme/charcoal.css";
 
 html {
+  @extend page;
   min-height: 100vh;
-  background: linear-gradient(45deg, #232B2E, #191E21);
-
 }
 
-html, input {
+html, input, button {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 18px;
   color: #FFFFFF;
@@ -25,13 +24,24 @@ html, input {
 }
 
 
+.cgui-execute {
+  @extend button;
+  padding: .5rem;
+  &:hover {
+    @extend button-hover;
+  }
+  &:active, &:focus {
+    @extend button-active;
+  }
+
+}
 
 
 .cgui-command {
   @extend input;
   margin-bottom: 1rem;
   padding: .5rem;
-  width: 100%;
+  width: 90%;
 }
 
 .cgui-left {
