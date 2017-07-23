@@ -13,3 +13,9 @@ Conversational Graphic User Interface
 
 ### Charcoal
 ![Charcoal](screenshot-c.jpg)
+
+### Solar
+![Solar](screenshot-d.jpg)
+
+### Deep
+![Deep](screenshot-e.jpg)
