@@ -1,6 +1,15 @@
 # cgui
 Conversational Graphic User Interface
 
+## Preview and Live Demo
+
 [demo](https://rawgit.com/fantasyui-com/cgui/master/dist/index.html) (via rawgit.com)
 
-Themes are at /src/theme
+### Glass
+![Glass](screenshot-a.jpg)
+
+### Tint
+![Tint](screenshot-b.jpg)
+
+### Charcoal
+![Charcoal](screenshot-c.jpg)

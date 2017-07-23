@@ -1,18 +1,16 @@
-@import "./theme/charcoal.css";
+@import "./theme/glass.css";
+
+html, input, button {
+ font-family: 'Open Sans Condensed', sans-serif;
+}
 
 html {
   @extend page;
   min-height: 100vh;
 }
 
-html, input, button {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 18px;
-  color: #FFFFFF;
-}
-
 .cgui-muted {
-  color: #CCCCCC;
+  @extend text-muted;
 }
 
 .cgui {
