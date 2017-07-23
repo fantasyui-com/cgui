@@ -1,6 +1,6 @@
 {
   "name": "cgui",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Conversational Graphic User Interface",
   "main": "index.js",
   "scripts": {
