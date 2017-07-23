@@ -11,12 +11,14 @@ $primary-gradient-2: #21272a;
 }
 
 @define-extend component {
+  text-shadow: 1px 1px 1px #000;
   border: 2px solid $border-color;
   background: linear-gradient($primary-gradient-1, $primary-gradient-2);
   border-radius: 4px;
 }
 
 @define-extend input {
+  text-shadow: 1px 1px 1px #000;
   border-radius: 2px;
   border: 2px solid $border-color;
   box-shadow: inset 0 0 5px  rgba(0,0,0,0.1), 0 0 15px rgba(0,0,0,0.1);
@@ -24,6 +26,7 @@ $primary-gradient-2: #21272a;
 }
 
 @define-extend button {
+  text-shadow: 1px 1px 1px #000;
   background: linear-gradient($primary-gradient-1, $primary-gradient-2);
   border-radius: 2px;
   border: 2px solid $border-color;
