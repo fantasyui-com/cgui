@@ -1,0 +1,38 @@
+$page-gradient-1: #242d30;
+$page-gradient-2: #181d20;
+
+$border-color: #343e40;
+
+$primary-gradient-1: #2e3538;
+$primary-gradient-2: #21272a;
+
+@define-extend page {
+  background: linear-gradient(45deg, $page-gradient-1, $page-gradient-2);
+}
+
+@define-extend component {
+  border: 2px solid $border-color;
+  background: linear-gradient($primary-gradient-1, $primary-gradient-2);
+  border-radius: 4px;
+}
+
+@define-extend input {
+  border-radius: 2px;
+  border: 2px solid $border-color;
+  box-shadow: inset 0 0 5px  rgba(0,0,0,0.1), 0 0 15px rgba(0,0,0,0.1);
+  background: linear-gradient( color($primary-gradient-1 tint(20%)), color($primary-gradient-2 tint(20%)) );
+}
+
+@define-extend button {
+  background: linear-gradient($primary-gradient-1, $primary-gradient-2);
+  border-radius: 2px;
+  border: 2px solid $border-color;
+}
+
+@define-extend button-hover {
+  border: 2px solid color($border-color tint(10%));
+}
+
+@define-extend button-active {
+  border: 2px solid color($border-color tint(20%));
+}
