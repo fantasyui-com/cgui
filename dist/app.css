@@ -1,77 +1,42 @@
-html, input, button, .cgui-execute, .cgui-command {
- font-size: 18px;
- color: #75848A;
-}
-.cgui-muted {
-  color: #DE6016;
-}
-html {
-  background: linear-gradient(45deg, #FDF6E3, #EEE8D5);
-}
-.cgui-left, .cgui-right {
-  text-shadow: 1px 1px 1px white;
 
-  border: 2px solid #E5605A;
-  border-radius: 8px;
-
-  background: linear-gradient(45deg, #ded9c9, #c8c3b5);
-}
-.cgui-left {
-  color: #4A8BD3;
-}
-.cgui-command {
-  text-shadow: 1px 1px 1px white;
-
-  border: 2px solid #E5605A;
-  border-radius: 8px;
-
-  background: -webkit-gradient(linear, left top, left bottom, from(#ded9c9), to(#c8c3b5));
-
-  background: linear-gradient(#ded9c9, #c8c3b5);
-}
-.cgui-execute {
-  -webkit-transition: 1s all;
-  transition: 1s all;
-  text-shadow: 1px 1px 1px white;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ded9c9), to(#c8c3b5));
-  background: linear-gradient(#ded9c9, #c8c3b5);
-  border: 2px solid #E5605A;
-}
-.cgui-execute:hover {
-  border: 2px solid rgb(232, 112, 107);
-  border-radius: 8px;
-}
-.cgui-execute:active, .cgui-execute:focus {
-  border: 2px solid rgb(234, 128, 123);
-}
-html, input, button, .cgui-execute, .cgui-command {
+html, input, button {
  font-family: 'Open Sans Condensed', sans-serif;
 }
-html {
-  min-height: 100vh;
+
+.html {
+  min-height: 100vh;background: linear-gradient(45deg, #5B799D, #874465);
 }
+
+.cgui-muted {color: rgb(255, 255, 255);
+
+}
+
 .cgui {
   padding: 1rem;
 }
+
 .cgui-container {
   padding: 1rem;
 }
-.cgui-execute {
-  padding: .5rem
 
+.cgui-execute {
+  padding: .5rem;text-shadow: 1px 1px 1px #000;background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.6)), to(rgba(0,0,0,0.2)));background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2));border: 2px solid #8e8e8e;
 }
+
 .cgui-command {
   margin-bottom: 1rem;
   padding: .5rem;
-  width: 90%;
+  width: 90%;text-shadow: 1px 1px 1px #000;border-radius: 2px;border: 2px solid #8e8e8e;background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.6)), to(rgba(0,0,0,0.2)));background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2));
 }
+
 .cgui-left {
   margin-bottom: 1rem;
   margin-right: 5rem;
-  padding: 2rem 1rem;
+  padding: 2rem 1rem;text-shadow: 1px 1px 1px #000;border: 2px solid #8e8e8e;background: linear-gradient(45deg, rgba(0,0,0,0.6), rgba(0,0,0,0.2));
 }
+
 .cgui-right {
   margin-bottom: 1rem;
   margin-left: 5rem;
-  padding: 2rem 1rem;
+  padding: 2rem 1rem;text-shadow: 1px 1px 1px #000;border: 2px solid #8e8e8e;background: linear-gradient(45deg, rgba(0,0,0,0.6), rgba(0,0,0,0.2));
 }

@@ -1,16 +1,16 @@
-@import "./theme/cream.css";
 
 html, input, button {
  font-family: 'Open Sans Condensed', sans-serif;
+ font-size: 18px;
+ 
 }
 
-html {
-  @extend page;
+.html {
   min-height: 100vh;
 }
 
 .cgui-muted {
-  @extend text-muted;
+
 }
 
 .cgui {
@@ -21,37 +21,23 @@ html {
   padding: 1rem;
 }
 
-
 .cgui-execute {
-  @extend button;
   padding: .5rem;
-  &:hover {
-    @extend button-hover;
-  }
-  &:active, &:focus {
-    @extend button-active;
-  }
-
 }
 
-
 .cgui-command {
-  @extend input;
   margin-bottom: 1rem;
   padding: .5rem;
   width: 90%;
 }
 
 .cgui-left {
-  @extend component;
-  @extend component-odd;
   margin-bottom: 1rem;
   margin-right: 5rem;
   padding: 2rem 1rem;
 }
 
 .cgui-right {
-  @extend component;
   margin-bottom: 1rem;
   margin-left: 5rem;
   padding: 2rem 1rem;
