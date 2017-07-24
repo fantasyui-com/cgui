@@ -1,4 +1,4 @@
-@import "./theme/deep.css";
+@import "./theme/cream.css";
 
 html, input, button {
  font-family: 'Open Sans Condensed', sans-serif;
@@ -44,6 +44,7 @@ html {
 
 .cgui-left {
   @extend component;
+  @extend component-odd;
   margin-bottom: 1rem;
   margin-right: 5rem;
   padding: 2rem 1rem;

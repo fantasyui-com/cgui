@@ -1,0 +1,63 @@
+$page-gradient-1: #FDF6E3;
+$page-gradient-2: #EEE8D5;
+
+$text-color: #75848A;
+$text-shadow: white;
+
+$border-color: #E5605A;
+$border-radius: 8px;
+
+$primary-gradient-1: #ded9c9;
+$primary-gradient-2: #c8c3b5;
+
+html, input, button {
+ font-size: 18px;
+ color: $text-color;
+}
+
+@define-extend text-muted {
+  color: #DE6016;
+}
+
+@define-extend page {
+  background: linear-gradient(45deg, $page-gradient-1, $page-gradient-2);
+}
+
+@define-extend component {
+  text-shadow: 1px 1px 1px $text-shadow;
+
+  border: 2px solid $border-color;
+  border-radius: $border-radius;
+
+  background: linear-gradient(45deg, $primary-gradient-1, $primary-gradient-2);
+}
+
+@define-extend component-odd {
+  color: #4A8BD3;
+}
+
+@define-extend input {
+  text-shadow: 1px 1px 1px $text-shadow;
+
+  border: 2px solid $border-color;
+  border-radius: $border-radius;
+
+  background: linear-gradient($primary-gradient-1, $primary-gradient-2);
+}
+
+@define-extend button {
+  transition: 1s all;
+  text-shadow: 1px 1px 1px $text-shadow;
+  background: linear-gradient($primary-gradient-1, $primary-gradient-2);
+  border: 2px solid $border-color;
+}
+
+@define-extend button-hover {
+  border: 2px solid color($border-color tint(10%));
+  border-radius: $border-radius;
+
+}
+
+@define-extend button-active {
+  border: 2px solid color($border-color tint(20%));
+}
