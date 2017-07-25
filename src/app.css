@@ -1,12 +1,15 @@
 
 html, input, button {
- font-family: 'Open Sans Condensed', sans-serif;
  font-size: 18px;
- 
+
 }
 
 .html {
   min-height: 100vh;
+}
+
+.cgui-text {
+
 }
 
 .cgui-muted {
