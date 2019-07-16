@@ -24,7 +24,7 @@
     "postcss-color-function": "^4.0.0",
     "postcss-merge-rules": "^2.1.2",
     "precss": "^2.0.0",
-    "revolutionize": "^1.0.2",
+    "revolutionize": "^1.3.0",
     "web-fonts": "^1.0.2"
   }
 }
